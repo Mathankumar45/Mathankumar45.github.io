@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Mathankumar G</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Mathankumar</span><br>SoftWare Developer</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/mathankumar-ganesan-9400b1249/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <!-- <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a> -->
+                    <a href="https://github.com/Mathankumar45/" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.jpeg"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/perfil.jpeg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Mathankumar</h2>
+                        <p class="about__text">Java Backend Developer with 2+ years of experience in secure API development, real-time transaction systems, MFA implementation, and enterprise automation. Passionate about performance, security, and scalable backend architectures</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+    <div>
+        <h2 class="skills__subtitle">Professional Skills</h2>
+        <p class="skills__text">
+            Experienced in backend development, secure API integration, real-time processing,
+            and enterprise reporting with strong exposure to Linux environments.
+        </p>
+
+        <!-- Java -->
+        <div class="skills__data">
+            <div class="skills__names">
+                <i class='bx bxl-java skills__icon'></i>
+                <span class="skills__name">Java (Core, Servlets, JSP)</span>
+            </div>
+            <div class="skills__bar skills__java"></div>
+            <div>
+                <span class="skills__percentage">80%</span>
+            </div>
+        </div>
+
+        <!-- REST & SOAP APIs -->
+        <div class="skills__data">
+            <div class="skills__names">
+                <i class='bx bx-transfer skills__icon'></i>
+                <span class="skills__name">REST & SOAP APIs</span>
+            </div>
+            <div class="skills__bar skills__api"></div>
+            <div>
+                <span class="skills__percentage">75%</span>
+            </div>
+        </div>
+
+        <!-- PL/SQL -->
+        <div class="skills__data">
+            <div class="skills__names">
+                <i class='bx bx-data skills__icon'></i>
+                <span class="skills__name">PL/SQL (Oracle, MS SQL)</span>
+            </div>
+            <div class="skills__bar skills__sql"></div>
+            <div>
+                <span class="skills__percentage">70%</span>
+            </div>
+        </div>
+
+        <!-- Jasper & JRXML -->
+        <div class="skills__data">
+            <div class="skills__names">
+                <i class='bx bx-file skills__icon'></i>
+                <span class="skills__name">Jasper Reports & JRXML</span>
+            </div>
+            <div class="skills__bar skills__jasper"></div>
+            <div>
+                <span class="skills__percentage">70%</span>
+            </div>
+        </div>
+
+        <!-- Linux -->
+        <div class="skills__data">
+            <div class="skills__names">
+                <i class='bx bxl-linux skills__icon'></i>
+                <span class="skills__name">Linux / Unix</span>
+            </div>
+            <div class="skills__bar skills__linux"></div>
+            <div>
+                <span class="skills__percentage">75%</span>
+            </div>
+        </div>
+
+        <!-- HTML & Inline JS -->
+        <div class="skills__data">
+            <div class="skills__names">
+                <i class='bx bxl-html5 skills__icon'></i>
+                <span class="skills__name">HTML & Inline JavaScript</span>
+            </div>
+            <div class="skills__bar skills__html"></div>
+            <div>
+                <span class="skills__percentage">70%</span>
+            </div>
+        </div>
+    </div>
+
+    <div>              
+        <img src="assets/img/work3.jpg" alt="Skills" class="skills__img">
+    </div>
+</div>
+            </section>
+
+            <!--===== WORK =====-->
+<section class="work section" id="work">
+    <h2 class="section-title">Projects & Work</h2>
+
+    <div class="work__container bd-grid">
+
+        <!-- Project 1 -->
+        <div class="work__card">
+            <h3 class="work__title">CUB Prepaid Card – PADSS Migration</h3>
+            <p class="work__desc">
+                Migrated prepaid card systems to PADSS-compliant architecture for
+                City Union Bank, ensuring secure transaction handling and regulatory compliance.
+            </p>
+            <span class="work__tech">
+                Java • PL/SQL • PADSS • Oracle • Security
+            </span>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="work__card">
+            <h3 class="work__title">CUB Debit Card – Get Card Details API</h3>
+            <p class="work__desc">
+                Developed secure Spring Boot REST APIs to fetch debit card details
+                using JWT authentication and strong encryption mechanisms.
+            </p>
+            <span class="work__tech">
+                Spring Boot • REST API • JWT • Encryption • Oracle
+            </span>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="work__card">
+            <h3 class="work__title">kiosk Machine – Card Details & Validation APIs</h3>
+            <p class="work__desc">
+                Built backend APIs to support kiosk machines by securely retrieving
+                and validating card details with real-time processing.
+            </p>
+            <span class="work__tech">
+                Java • REST API • JSON • Real-Time Processing
+            </span>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="work__card">
+            <h3 class="work__title">Multi-Factor Authentication (MFA)</h3>
+            <p class="work__desc">
+                Implemented OTP-based MFA modules for prepaid card customer portals,
+                including resend OTP functionality for better user experience.
+            </p>
+            <span class="work__tech">
+                Java • OTP • Security • API Integration
+            </span>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="work__card">
+            <h3 class="work__title">Straight Through Processing (STP) Automation</h3>
+            <p class="work__desc">
+                Automated customer notifications by integrating CBS systems and
+                triggering real-time messages without manual intervention.
+            </p>
+            <span class="work__tech">
+                Java • Servlets • SQL • JSON • Automation
+            </span>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="work__card">
+            <h3 class="work__title">Enterprise Report Generation Module</h3>
+            <p class="work__desc">
+                Designed Jasper Reports using JRXML for exporting reports in
+                PDF and Excel formats to improve data accessibility.
+            </p>
+            <span class="work__tech">
+                Jasper Reports • JRXML • SQL • PDF/XLS
+            </span>
+        </div>
+
+    </div>
+</section>
+
+
+            <!--===== CONTACT =====-->
+           <section class="contact section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact__container bd-grid">
+
+        <!-- Contact Info -->
+        <div class="contact__info">
+            <p class="contact__text">
+                Feel free to reach out for backend development opportunities,
+                collaborations, or technical discussions.
+            </p>
+
+            <div class="contact__details">
+                <p>
+                    <i class='bx bx-envelope'></i>
+                    <a href="mailto:mathanpravee368@gmail.com">
+                        mathanpravee368@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <i class='bx bx-phone'></i>
+                    <a href="tel:+918508645558">
+                        +91 85086 45558
+                    </a>
+                </p>
+
+                <p>
+                    <i class='bx bxl-linkedin'></i>
+                    <a href="https://www.linkedin.com/in/mathankumar-ganesan-9400b1249/"
+                       target="_blank">
+                        LinkedIn Profile
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Optional Contact Form -->
+        <form class="contact__form">
+            <input type="text" placeholder="Your Name" class="contact__input">
+            <input type="email" placeholder="Your Email" class="contact__input">
+            <textarea rows="6" placeholder="Your Message" class="contact__input"></textarea>
+            <input type="button" value="Send Message" class="contact__button button">
+        </form>
+
+    </div>
+</section>
+
+        </main>
+
+        <!--===== FOOTER =====-->
+        <!-- <footer class="footer">
+            <p class="footer__title">Mathankumar</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+             <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p> 
+        </footer> -->
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
